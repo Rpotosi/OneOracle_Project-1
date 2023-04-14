@@ -1,0 +1,51 @@
+
+ html, body{
+    background: #E5E5E5;
+    margin: 0;
+    
+}
+.container_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}   
+.container_principal,img{
+
+    margin-top: 25px;
+}    
+
+.izquierda img{
+        position: relative;    
+        height: 500px;
+        width: 400px;
+        left: 1100px;
+        top: 40px;
+        border-radius: 32px;
+     
+}
+.boton{
+
+    box-sizing: border-box;
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    width: 328px;
+    height: 87px;
+
+    
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
