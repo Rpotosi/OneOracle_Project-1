@@ -20,15 +20,24 @@
     margin-top: 25px;
 }    
 
-.izquierda img{
+
+.izquierda #input1{
         position: relative;    
-        height: 500px;
+        height: 200px;
         width: 400px;
-        left: 1100px;
-        top: 40px;
+        left: 100px;
+        top: -125PX;
         border-radius: 32px;
-     
 }
+.izquierda #input2{
+    position: relative;    
+    height: 700px;
+    width: 400px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+}
+
 .boton{
 
     box-sizing: border-box;
@@ -36,10 +45,10 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 24px;
+    padding: 35px;
     gap: 8px;
     
-    width: 328px;
+    width: 528px;
     height: 87px;
 
     
