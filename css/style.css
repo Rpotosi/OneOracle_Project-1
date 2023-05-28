@@ -4,7 +4,7 @@
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .logo{
@@ -41,7 +41,7 @@ main{
     border: none;
     border-radius: 24px; /*Redondear los borden*/
     color: #0A3871;
-    margin-left: 98px;
+    margin-left: 108px;
     margin-top: 20px;
     padding-left: 20px;
     position: fixed;
@@ -84,7 +84,7 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
+    margin-left: 136px;
     margin-top: 402px;
     position: absolute;     
     width: 336px;
